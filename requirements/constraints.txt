@@ -245,7 +245,7 @@ typing-extensions==4.1.1
     #   pydantic
 uritemplate==4.1.1
     # via gidgethub
-urllib3==1.26.7
+urllib3==1.26.17
     # via requests
 uvloop==0.14.0 ; platform_system != "Windows" and implementation_name == "cpython" and python_version < "3.9"
     # via -r requirements/base.txt
