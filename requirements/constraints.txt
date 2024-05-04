@@ -231,7 +231,7 @@ towncrier==22.8.0
     # via
     #   -r requirements/doc.txt
     #   sphinxcontrib-towncrier
-tqdm==4.62.3
+tqdm==4.66.3
     # via python-on-whales
 trustme==0.9.0 ; platform_machine != "i686"
     # via -r requirements/test.txt
