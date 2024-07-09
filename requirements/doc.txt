@@ -6,3 +6,4 @@ sphinxcontrib-asyncio==0.3.0
 sphinxcontrib-blockdiag==3.0.0
 sphinxcontrib-towncrier==0.3.0a0
 towncrier==22.8.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
