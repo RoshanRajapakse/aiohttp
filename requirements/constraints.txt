@@ -26,7 +26,7 @@ brotli==1.0.9
     #   -r requirements/test.txt
 cchardet==2.1.7 ; python_version < "3.10"
     # via -r requirements/base.txt
-certifi==2021.10.8
+certifi==2024.7.4
     # via requests
 cffi==1.15.0
     # via
@@ -80,11 +80,11 @@ funcparserlib==1.0.0a0
     #   blockdiag
 gidgethub==5.0.1
     # via cherry-picker
-gunicorn==20.1.0
+gunicorn==22.0.0
     # via -r requirements/base.txt
 identify==2.3.3
     # via pre-commit
-idna==3.3
+idna==3.7
     # via
     #   requests
     #   trustme
@@ -97,7 +97,7 @@ incremental==21.3.0
     # via towncrier
 iniconfig==1.1.1
     # via pytest
-jinja2==3.0.2
+jinja2==3.1.4
     # via
     #   sphinx
     #   towncrier
@@ -123,7 +123,7 @@ packaging==21.2
     #   sphinx
 pep517==0.12.0
     # via pip-tools
-pillow==9.2.0
+pillow==10.3.0
     # via blockdiag
 pip-tools==6.5.0
     # via -r requirements/dev.txt
@@ -141,13 +141,13 @@ pycares==4.1.2
     # via aiodns
 pycparser==2.20
     # via cffi
-pydantic==1.8.2
+pydantic==1.10.13
     # via python-on-whales
 pyenchant==3.2.2
     # via sphinxcontrib-spelling
-pygments==2.11.0
+pygments==2.15.0
     # via sphinx
-pyjwt==2.3.0
+pyjwt==2.4.0
     # via gidgethub
 pyparsing==2.4.7
     # via packaging
@@ -173,7 +173,7 @@ re-assert==1.1.0
     # via -r requirements/test.txt
 regex==2021.11.2
     # via re-assert
-requests==2.26.0
+requests==2.32.2
     # via
     #   cherry-picker
     #   python-on-whales
@@ -231,7 +231,7 @@ towncrier==22.8.0
     # via
     #   -r requirements/doc.txt
     #   sphinxcontrib-towncrier
-tqdm==4.62.3
+tqdm==4.66.3
     # via python-on-whales
 trustme==0.9.0 ; platform_machine != "i686"
     # via -r requirements/test.txt
@@ -245,7 +245,7 @@ typing-extensions==4.1.1
     #   pydantic
 uritemplate==4.1.1
     # via gidgethub
-urllib3==1.26.7
+urllib3==1.26.19
     # via requests
 uvloop==0.14.0 ; platform_system != "Windows" and implementation_name == "cpython" and python_version < "3.9"
     # via -r requirements/base.txt
@@ -255,17 +255,17 @@ wait-for-it==2.2.1
     # via -r requirements/test.txt
 webcolors==1.11.1
     # via blockdiag
-wheel==0.37.0
+wheel==0.38.0
     # via pip-tools
 yarl==1.8.1
     # via -r requirements/base.txt
-zipp==3.8.1
+zipp==3.19.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==21.3.1
     # via pip-tools
-setuptools==58.4.0
+setuptools==70.0.0
     # via
     #   blockdiag
     #   gunicorn
