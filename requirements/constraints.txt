@@ -137,7 +137,7 @@ proxy-py==2.4.4rc3
     # via -r requirements/test.txt
 py==1.11.0
     # via pytest
-pycares==4.1.2
+pycares==4.9.0
     # via aiodns
 pycparser==2.20
     # via cffi
@@ -245,7 +245,7 @@ typing-extensions==4.1.1
     #   pydantic
 uritemplate==4.1.1
     # via gidgethub
-urllib3==1.26.7
+urllib3==2.5.0
     # via requests
 uvloop==0.14.0 ; platform_system != "Windows" and implementation_name == "cpython" and python_version < "3.9"
     # via -r requirements/base.txt
